@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 public class Exemplo01 {
 
+	//testando Git
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Scanner entrada = new Scanner(System.in);
-		int[] v = new int[5]; //Local ao método main
-		lerDados(v); // argumento --> variavel que será enviada para o método
+		int[] v = new int[5]; //Local ao mÃ©todo main
+		lerDados(v); // argumento --> variavel que serÃ¡ enviada para o mÃ©todo
 		int maior = maiorValor(v);
 		int menor = menorValor(v);
 		System.out.println("Maior Valor =" +maior);
@@ -35,7 +37,7 @@ public class Exemplo01 {
 		return aux;
 	}
 	
-	//(não tem objeto nesse momento)
+	//(nÃ£o tem objeto nesse momento)
 	public static void lerDados(int[] v) { // Paremetro --> variavel que recebe o valor
 		Scanner teclado = new Scanner(System.in);
 		for(int i=0; i< v.length; i++) {
